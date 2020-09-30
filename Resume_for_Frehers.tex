@@ -1,0 +1,96 @@
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage[left=0.75in,top=0.5in,right=0.75in,bottom=0.5in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Justin Leung} % Your name
+\address{778-288-3616 \\ justinpc.leung@mail.utoronto.ca} % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf University of Toronto} \hfill {\em September 2016 - Present} 
+\\Bachelor of Applied Science in Computer Engineering\hfill
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Technical Skills \ & C, C++, Python, System Verilog, Assembly, MATLAB
+\end{tabular}
+
+\end{rSection}
+
+% \begin{rSection}{Carrier Objective}
+%  To work for an organization which provides me the opportunity to improve my skills and knowledge to grow along with the organization objective.
+% \end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Work Experience}
+
+\begin{rSubsection}{Xilinx, San Jose, USA}{\em May 2019 - August 2020}{SerDes Applications Intern}{}
+\item Contributed to the validation/characterization scripts for the Multirate Ethernet MAC block in the 7nm Versal FPGA. Implemented MRMAC characterization firmware for extensive PVT testing and built a GUI to demonstrate the functionality/performance of the MRMAC block for display at the Xilinx Developer Forum. Designed, adapted and tested embedded systems for internal and customer use. Developed an extensive API test suite and automated tests for PCIe Compliance.
+
+
+\end{rSubsection}
+
+\begin{rSubsection}{University of British Columbia, Vancouver, Canada}{\em May 2017 - August 2017}{Research Assistant, BioMEMS Lab, NSERC Undergraduate Student Award}{}
+\item Developed the fabrication and testing process of a novel Lung on a Chip 3D model. Tasks ranged from: designing CAD models, culturing cells, testing microfluidics of designs and analyzing experiment data.
+
+\end{rSubsection}
+
+\end{rSection}
+
+%--------------------------------------------------------------------------------
+%    Projects And Seminars
+%-----------------------------------------------------------------------------------------------
+\begin{rSection}{Projects}
+
+{\bf Multi-Cycle Processor} \hfill {\em April 2019} 
+\\Designed and implemented a 32-bit multi-cycle processor and used techniques such as pipelining to optimize the rate of instructions executed. The processor was specified to take 10 instructions and completed each instruction in a maximum of 4 stages/cycles: fetch, read, execute and write.\\
+
+{\bf Geographic Information System} \hfill {\em April 2018} 
+\\Developed a GIS software with functionality comparable to Google maps. Met weekly with instructor to review project proposals/milestones and presented results to fellow classmates. Implemented A*, nearest neighbor and 2 opt algorithms to solve the travelling salesman problem.\\
+
+{\bf Survival Game Implemented on FPGA} \hfill {\em November 2017} 
+\\Constructed a survival game based on “Fist of Fury” (mobile game) in 3 weeks, implemented on the DE1-SoC using Verilog. Thoroughly planned block diagrams and schematics, followed by building them incrementally. Rigorously tested each module using Model Sim to ensure correct waveform values.
+
+\end{rSection}
+
+
+
+%	VOLUNTEER EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Volunteer Experience} 
+
+\begin{rSubsection}{ECE Mentorship Program, University of Toronto}{\em September 2018 - April 2019}{}
+\item Support first year students transition from highschool to university. Provide mentees guidance regarding courses, study habits, dealing with stress and ways to make the most from their university experience.
+
+\end{rSubsection}
+
+\end{rSection}
+
+%\newpage
+
+%----------------------------------------------------------------------------------------
+% Extra Curricular
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Extra-Curricular} \itemsep -3pt
+\item \textbf{Certifications: } Bronze Medallion 2013, Bronze Cross 2013, Standard First Aid 2014, Life Saving Instructor 2015, First Responder 2015, National Lifeguard 2016
+\item \textbf{Competitive Swimming(2006-2015):} Obtained 28 medals in BC Provincial Championships
+
+
+\end{rSection}
+
+
+\end{document}
